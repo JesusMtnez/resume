@@ -1,3 +1,7 @@
 # OS
 .directory
 .DS_store
+
+# Nix
+.direnv/
+result
