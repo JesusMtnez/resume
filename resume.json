@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "theme": "macchiato"
+  },
+  "basics": {
+    "name": "Jesús Martínez",
+    "label": "Senior Software Engineer - Backend",
+    "website": "https://jesusmtnez.es",
+    "location": {
+      "countryCode": "Spain"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "JesusMtnez",
+        "url": "https://github.com/JesusMtnez"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "JesusMtnez",
+        "url": "https://www.linkedin.com/in/jesusmtnez/"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2016-06",
+      "startDate": "2012-09",
+      "area": "Computer Software Engineering",
+      "studyType": "Bachelors",
+      "institution": "Universidad Politécnica de Madrid"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Excellence Academic Grant",
+      "awarder": "Fundación Caja de Ingenieros (associated with Universidad Politécnica de Madrid)",
+      "date": "2014-01",
+      "summary": "Excellence Academic Grant for the best academic record in the Information and Comunication Technologies area in 2012-2013."
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Ansible",
+      "date": "2018-03-07",
+      "issuer": "OpenWebinars",
+      "url": "https://openwebinars.net/cert/n5kNw"
+    },
+    {
+      "name": "Architecting with Google Compute Engine (6 courses)",
+      "date": "2018-11-14",
+      "issuer": "Google Cloud (Coursera)",
+      "url": "https://www.coursera.org/account/accomplishments/verify/Q3YY22HW8MLK"
+    }
+  ],
+  "references": [
+    {
+      "reference": "Working with Jesus was a blast! He's that rare breed of senior software engineer who's not only a quick learner but also loves getting down to the nitty-gritty details. But what really sets him apart is his ability to explain complex things in a way that just clicks. He's also the ultimate team player, always ready to roll up his sleeves and collaborate. If you're on the lookout for a senior software engineer who's got it all, here's Jesus.",
+      "name": "Daniel Divricean, Team Lead at LeadIQ"
+    },
+    {
+      "reference": "Imagine an engineer with less than a year of professional working experience more proficient than the average 5 years worker. That is Jesus. A really quick learner, he's been capable of grasping very complex architectural concepts in record time, that usually take several years to master. Among that he's been able to become an outstandingly proficient Scala programmer (not an easy language to learn when you have almost no \"real world\" programming background) in less than 6 months. Wow. Being an all terrain professional what I would stress about him is his passion for learning new things and getting deep to the bottom of everything. He feels uncomfortable in front of black magic. And that makes of Jesus a self driven, curious person that doesn't stop until everything is understood. If you hire him I warn you: as soon as I have a chance I'll try to get him back to work in my team again, so you'd better treat him well or you'll loose one of the most valuable assets in your organisation.",
+      "name": "Mariano Navas, Senior Software Engineer"
+    },
+    {
+      "reference": "Jesús es un desarrollador de rapidísimo aprendizaje y adaptación. A pesar de su juventud, es capaz de asumir tareas complejas sin ofuscarse. Entiende y da solución a problemas complejos siempre con una sonrisa. Sus amplios conocimientos técnicos le permiten tener una visión muy completa de productos de software complejos.",
+      "name": "Jaume López-Malla Soriano, Senior Information Architect at ING España"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Homelab",
+      "startDate": "2021-06-16",
+      "description": "my home infrastructure and Kubernetes cluster",
+      "highlights": [],
+      "url": "https://jesusmtnez.es/homelab"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "Scala",
+        "Functional Programming",
+        "Typelevel Ecosystem",
+        "Test Driven Development",
+        "Project Collaboration with GIT"
+      ],
+      "name": "Software Engineering"
+    },
+    {
+      "keywords": [
+        "Postgres",
+        "MySQL",
+        "MariaDB",
+        "Mongo",
+        "Redis",
+        "Kafka",
+        "Microservices"
+      ],
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "AWS",
+        "Google Cloud",
+        "Kubernetes",
+        "Ansible",
+        "GitOps",
+        "Linux Administration"
+      ],
+      "name": "DevOps"
+    }
+  ],
+  "work": [
+    {
+      "name": "LeadIQ",
+      "position": "Senior Software Engineer",
+      "url": "https://leadiq.com/",
+      "startDate": "2021-12",
+      "endDate": "2023-12",
+      "location": "Remote (Spain)",
+      "summary": "The LeadIQ platform is built to help you prospect smarter and build pipeline faster.  As a backend engineer, I develop and maintain microservices in a large platform.",
+      "highlights": [
+        "Scala FP with libraries: ZIO ecosystem",
+        "GraphQL and RESTful APIs",
+        "Deployments to Kubernetes using ArgoCD",
+        "Postgres / MongoDB / Redis",
+        "Continuous Delivery pipelines in GitLab CI."
+      ]
+    },
+    {
+      "name": "47 Degrees (Acquired by Xebia in 2022)",
+      "position": "Senior Software Engineer",
+      "url": "https://www.47deg.com/",
+      "startDate": "2018-04",
+      "endDate": "2021-12",
+      "location": "Remote (Spain)",
+      "summary": "47 Degrees is a global technology consultancy. As a consultant, I developed and maintained microservices in a large platforms.",
+      "highlights": [
+        "Scala FP with libraries: cats, cats-effect, http4s, mu, doobie, skunk",
+        "Microservices architectures",
+        "RESTful APIs",
+        "Deployments to Kubernetes",
+        "Postgres / Redis / HBase / CosmosDB",
+        "Continuous Integration including acceptance and performance testing, using Jenkins."
+      ]
+    },
+    {
+      "name": "StratioBD",
+      "position": "Software Engineer",
+      "url": "https://stratio.com/",
+      "startDate": "2016-09",
+      "endDate": "2018-03",
+      "location": "On-site (Spain)",
+      "summary": "Stratio BD is a Generative AI Data Fabric company helping enterprises instantly access the quality data they need for good business decisions. As backend engineer, I worked in a Spark focused platform.",
+      "highlights": [
+        "Scala with libraries: play framework, Spark 2.2, cats",
+        "Microservices architectures",
+        "RESTful APIs",
+        "Deployments to Mesosphere DC/OS",
+        "Postgres",
+        "Continuous Integration using Jenkins."
+      ]
+    },
+    {
+      "name": "Gennion Solutions",
+      "position": "Junior Software Engineer",
+      "startDate": "2015-09",
+      "endDate": "2016-09",
+      "location": "On-site (Spain)",
+      "summary": "Gennion Solutions has built Nutshell to Digitalize physical places such as Retail, Shopping Malls, Hotels, Airports, Museums, Petrol Stations or Smart Cities. It detects, identifies, tracks and interacts with people and assets through a combination of location technologies and use cases. As backend engineer, I worked in developing microservices for the platform.",
+      "highlights": [
+        "Scala with libraries: dropwizard, Slick",
+        "Microservices architectures",
+        "RESTful APIs",
+        "Deployments to Kubernetes in Google Clould",
+        "Postgres",
+        "RabbitMQ",
+        "Continuous Integration using Jenkins."
+      ]
+    },
+    {
+      "name": "Computer Networks & Web Technologies Laboratory (Universidad Politécnica de Madrid)",
+      "position": "Intern",
+      "startDate": "2014-10",
+      "endDate": "2015-06",
+      "location": "On-site (Spain)",
+      "summary": "Developer in projects in the area of Future Internet FIWARE and FICORE. Woked in a payment system software, and also a monitoring and accounting system for web services and APIs."
+    }
+  ],
+  "interests": [
+    {
+      "name": "Self-hosting"
+    },
+    {
+      "name": "Open Source"
+    }
+  ]
+}
