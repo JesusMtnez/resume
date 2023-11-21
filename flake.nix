@@ -2,7 +2,7 @@
   description = "JesusMtnez's Resume";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/release-23.11";
+    nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
 
     jsonresume-nix.url = "github:TaserudConsulting/jsonresume-nix";
     jsonresume-nix.inputs.nixpkgs.follows = "nixpkgs";
