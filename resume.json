@@ -11,6 +11,11 @@
     },
     "profiles": [
       {
+        "network": "Git",
+        "username": "JesusMtnez",
+        "url": "https://codeberg.org/JesusMtnez"
+      },
+      {
         "network": "GitHub",
         "username": "JesusMtnez",
         "url": "https://github.com/JesusMtnez"
