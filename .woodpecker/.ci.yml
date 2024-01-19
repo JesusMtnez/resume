@@ -1,0 +1,35 @@
+---
+when:
+  branch: main
+  event: [ push, pull_request]
+  path:
+    exclude: [ "README.md" ]
+
+steps:
+  build:
+    image: nixos/nix:2.19.2
+    commands:
+    - echo 'experimental-features = flakes nix-command' >> /etc/nix/nix.conf
+    - nix build
+    - mkdir public
+    - cp -ar result/. public/
+
+  deploy:
+    image: alpine/git:2.43.0
+    secrets:
+      - codeberg_token
+    commands:
+      - WORKDIR=`mktemp -d`
+      - cp .domains $WORKDIR || true
+      - cp -ar public/. $WORKDIR/
+      - cd $WORKDIR
+      - git init
+      - git config user.name "JesusMtnez[bot]"
+      - git config user.email "noreply@codeberg.org"
+      - git checkout --orphan pages
+      - git add --all .
+      - git commit --message "deploy resume"
+      - git push --force https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO pages
+    when:
+      - event: push
+        branch: main
