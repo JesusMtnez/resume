@@ -2,8 +2,6 @@
 when:
   branch: main
   event: [ push, pull_request]
-  path:
-    exclude: [ "README.md" ]
 
 steps:
   build:
