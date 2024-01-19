@@ -1,5 +1,5 @@
 [![status-badge](https://ci.codeberg.org/api/badges/12998/status.svg)](https://ci.codeberg.org/repos/12998)
 
-# My resume
+# JesusMtnez's resume
 
-https://jesusmtnez.es/resume
+My resume (CV) using `nix` + `jsonresume`: https://jesusmtnez.es/resume
