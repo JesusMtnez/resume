@@ -2,4 +2,4 @@
 
 # JesusMtnez's resume
 
-My resume (CV) using `nix` + `jsonresume`: https://jesusmtnez.es/resume
+My resume (CV) using `nix` + `jsonresume`: https://jesusmtnez.codeberg.page/resume
