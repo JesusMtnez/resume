@@ -16,14 +16,15 @@ steps:
     image: alpine/git:2.43.0
     secrets:
       - codeberg_token
+      - bot_email
     commands:
       - WORKDIR=`mktemp -d`
       - cp .domains $WORKDIR || true
       - cp -ar public/. $WORKDIR/
       - cd $WORKDIR
       - git init
-      - git config user.name "JesusMtnez[bot]"
-      - git config user.email "noreply@codeberg.org"
+      - git config user.name "JesusMtnez-bot"
+      - git config user.email "$BOT_EMAIL"
       - git checkout --orphan pages
       - git add --all .
       - git commit --message "deploy resume"
