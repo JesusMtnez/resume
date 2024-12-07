@@ -14,9 +14,11 @@ steps:
 
   deploy:
     image: alpine/git:v2.45.2
-    secrets:
-      - codeberg_token
-      - bot_email
+    environment:
+      BOT_EMAIL:
+        from_secret: bot_email
+      CODEBERG_TOKEN:
+        from_secret: codeberg_token
     commands:
       - WORKDIR=`mktemp -d`
       - cp .domains $WORKDIR || true
@@ -24,11 +26,11 @@ steps:
       - cd $WORKDIR
       - git init
       - git config user.name "JesusMtnez-bot"
-      - git config user.email "$BOT_EMAIL"
+      - git config user.email "$${BOT_EMAIL}"
       - git checkout --orphan pages
       - git add --all .
       - git commit --message "deploy resume"
-      - git push --force https://$CODEBERG_TOKEN@codeberg.org/$CI_REPO pages
+      - git push --force https://$${CODEBERG_TOKEN}@codeberg.org/$CI_REPO pages
     when:
       - event: push
         branch: main
