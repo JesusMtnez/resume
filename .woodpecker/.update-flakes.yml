@@ -1,7 +1,7 @@
 ---
 when:
-  event: manual
-  branch: main
+  - event: manual
+    branch: main
 
 steps:
   update-lockfile:
