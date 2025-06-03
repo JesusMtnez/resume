@@ -128,8 +128,13 @@
   ],
   "work": [
     {
+      "position": "Parental Leave (Childcare)",
+      "startDate": "2023-12",
+      "summary": "Maintained technical proficiency through self-led projects and continued learning."
+    },
+    {
       "name": "LeadIQ",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer - LeadIQ",
       "url": "https://leadiq.com/",
       "startDate": "2021-12",
       "endDate": "2023-12",
@@ -145,7 +150,7 @@
     },
     {
       "name": "47 Degrees (Acquired by Xebia in 2022)",
-      "position": "Senior Software Engineer",
+      "position": "Senior Software Engineer - 47 Degrees",
       "url": "https://www.47deg.com/",
       "startDate": "2018-04",
       "endDate": "2021-12",
@@ -162,7 +167,7 @@
     },
     {
       "name": "StratioBD",
-      "position": "Software Engineer",
+      "position": "Software Engineer - Stratio BD",
       "url": "https://stratio.com/",
       "startDate": "2016-09",
       "endDate": "2018-03",
@@ -179,7 +184,7 @@
     },
     {
       "name": "Gennion Solutions",
-      "position": "Junior Software Engineer",
+      "position": "Junior Software Engineer - Gennion",
       "startDate": "2015-09",
       "endDate": "2016-09",
       "location": "On-site (Spain)",
@@ -196,7 +201,7 @@
     },
     {
       "name": "Computer Networks & Web Technologies Laboratory (Universidad Politécnica de Madrid)",
-      "position": "Intern",
+      "position": "Intern - Universidad Politécnica de Madrid",
       "startDate": "2014-10",
       "endDate": "2015-06",
       "location": "On-site (Spain)",
