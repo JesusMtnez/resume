@@ -128,8 +128,24 @@
   ],
   "work": [
     {
+      "name": "ICE Services",
+      "position": "Senior Software Engineer - ICE",
+      "url": "https://iceservices.com/",
+      "startDate": "2025-07",
+      "location": "Remote (Spain)",
+      "summary": "ICE Services supports songwriters, enabling societies and publishers to accurately compensate them when their work is used internationally.",
+      "highlights": [
+        "Scala with Typelevel ecosystem: cats, cats-effect, http4s, doobie",
+        "RESTful APIs",
+        "Kafka",
+        "Postgres",
+        "IaC using pulumi"
+      ]
+    },
+    {
       "position": "Parental Leave (Childcare)",
       "startDate": "2023-12",
+      "endDate": "2025-07",
       "summary": "Maintained technical proficiency through self-led projects and continued learning."
     },
     {
